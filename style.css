@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body {
+    font-family: 'Poppins';
+    margin: 0 1.5%;
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;}
+
+nav {
+    width: 600px;
+}
+    
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackheart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.npmlogo {
+    width: 4%;
+    line-height: 16px;
+    margin-right: 15px;
+}
+
+.lupa {
+    
+    height: 15px;
+    background-color: #F2F2F2;
+    padding: 0.8em 0 0.9em 0.5em;
+    /*display: flex;
+    justify-content: center;*/
+    float: left;
+}
+
+.inputsearch {
+    border: none;
+    background-color: #F2F2F2;
+    margin: none;
+    padding: 1em;
+    width: 85%;
+    float: left;
+}
+
+.bar {
+    width: 100%;
+    height: 58px;
+}
+
+.search {
+    background-color: #fb3e44;
+    color: white;
+    /*border: none;*/
+    padding: 1em;
+    float: left;
+    border: 1px outset #F2F2F2;
+
+}
+
+.search-form {
+    width:80%;
+}
+
+.join {
+    text-decoration: none;
+    color: #2F4F4F;
+    border: 1px solid #E7E7E7;
+    padding: 5px 13px;
+}
+
+.login {
+    text-decoration: none;
+    color: #2F4F4F;
+    margin-right: 5%;
+    margin-left: 1%;
+}
+
+#first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8F4F4;
+    height: 600px;
+    width: 100%;
+}
+
+.header1 {
+    font-size: 5em;
+    font-weight:1000;
+    height: 150px;
+    margin-bottom: 0px;
+}
+
+.text1 {
+    text-align: center;
+    height: 150px;
+}
+
+.buttonsfirst {
+    height: 200px;
+    text-align: center;
+    width: 50%;
+}
+
+.seeplan {
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    padding: 1em 4.5em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 7%;
+}
+
+.joinforfree{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 1em 4.5em;
+    font-weight: bold;
+}
+
+#second {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hexagon {
+   height: 50%;
+}
+
+.hexagonimage {
+    height: 80%;
+    width: 100%;
+}
+
+.h2second {
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    padding: 0 1.5em;
+    font-size: 1.7em;
+}
+
+.psecond {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+#third {
+    height: 600px;
+    width: 100%;
+}
+
+.advantages {
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5em 0.1em;
+    align-content: space-between;
+    margin-bottom: 2.5em;
+
+}
+
+.image3 {
+    height: 40px;
+}
+
+.header3 {
+    color: #ED1C24;
+    font-size: 1em;
+}
+
+.p3 {
+    font-size: 0.8em;
+}
+
+.createanorg {
+    background-color: black;
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    width: 30%;
+    padding: 1em 8em;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+}
